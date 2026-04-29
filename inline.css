@@ -1,0 +1,513 @@
+.header {
+  width: 100%;
+  height: 90px;
+  padding:0 160px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  background-color: #fff;
+  border-bottom: 2px solid #E7E7E7;
+}
+.header-img {
+  flex-grow: 2;
+}
+.header-img a{
+  width: 100px;
+}
+.nav-ul {
+  display: flex;
+  gap: 15px;
+  flex-grow: 1;
+}
+.dorpdown{
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100;
+  left: 50;
+  background-color: #fff;
+  min-width: 200px;
+  padding: 40px 0;
+  box-shadow: 2px 2px 15px 3px rgba(180, 176, 176, 0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #505563;
+}
+.dropdown-content li a {
+  padding: 10px 15px; 
+  display: block;
+  text-align: left;
+  border-bottom: 2px solid #F8F9F9;
+}
+.nav-li {
+  padding: 10px;
+  color: #505563;
+  font-size: 15px;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.nav-li:hover {
+  color: #ff6e06;
+}
+li:hover {
+  color: #ff6e06;
+}
+.header-btn {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #da3743;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 5px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.header-btn img {
+  width: 27px;
+}
+main{
+  padding-top: 90px;
+}
+.intro-section {
+  background-image: url("https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_首圖.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding-left: 160px;
+  padding-bottom: 150px;
+}
+.intro-h2 {
+  font-size: 44px;
+  font-family: impact, sans-serif;
+  font-weight: 600;
+  padding-top: 120px;
+}
+.intro-h2 a {
+  color: #ff6337;
+}
+.intro-section > span:first-of-type {
+  font-size: 20px;
+  font-family: "arial black", sans-serif;
+  padding-top: 14.8px;
+}
+.inline {
+  font-family: arial, helvetica, sans-serif;
+}
+.fi-line {
+  padding-top: 62.5px;
+}
+.line {
+  font-family: "arial black", sans-serif;
+  color: #595959;
+  line-height: 2;
+}
+.intro-section button {
+  margin-top: 62.5px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #064c8c;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.service-img {
+  background-image: url("https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_country.png");
+  background-size: cover;
+  height: 585.88px;
+  display: flex;
+  justify-content: center;
+  padding-top: 135px;
+}
+.service-scope {
+  color: #333333;
+  font-family: "Noto Sans TC";
+  width: 516.94px;
+  font-size: 17.3333px;
+  text-align: center;
+}
+.productivity-tools {
+  color: #ec6300;
+  text-align: center;
+  font-size: 26.6667px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.productivity-tag {
+  text-align: center;
+  font-family: "Noto Sans Japanese-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.reserve {
+  display: flex;
+  background-image: url("https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_hp_background1.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg {
+  background-image: url(https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_hp_background2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.costumer {
+  display: flex;
+  padding-bottom: 350px;
+  margin-bottom: 60px;
+}
+.reserve-img {
+  width: 560px;
+  object-fit: contain;
+  margin-left: 160px;
+}
+.field {
+  padding: 70px 20px 0px 20px;
+  line-height: 2;
+}
+.section-subtitle {
+  color: #064c8c;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  padding-left: 100px;
+  margin-bottom: 70px;
+}
+.feature-list {
+  width: 560px;
+}
+.feature-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.feature-img {
+  width: 44px;
+  height: 44px;
+  margin-right: 26px;
+  object-fit: cover;
+}
+.feature-strong {
+  color: #252932;
+  font-size: 19.2px;
+  margin-bottom: 10px;
+  font-family: "Noto Sans Japanese-Medium", sans-serif;
+  font-weight: 600;
+}
+.feature-p {
+  color: #252932;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.waiting {
+  display: flex;
+  margin-left: 160px;
+}
+.waiting-img {
+  width: 560px;
+  height: 490.58px;
+  padding: 0px 20px;
+  margin-top: 240px;
+}
+.partner-title {
+  font-family: "Noto Sans Japanese-Medium", sans-serif;
+  font-size: 28px;
+  color: #252932;
+  font-weight: bold;
+  padding-bottom: 120px;
+  text-align: center;
+}
+.brand-section {
+  width: 1161px;
+  padding: 20px 20px;
+  margin-left: 160px;
+}
+.brand-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.brand-tabs li {
+  padding: 14px 20px;
+  color: #666;
+  cursor: pointer;
+}
+.tabs-item.select{
+  border-bottom: 5px solid #ec6337;
+}
+.brand {
+  width: 1160px;
+}
+.brand-img{
+  display: none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.brand-img.select{
+  display: flex;
+}
+.brand-item {
+  width: 190.4px;
+  height: 152.31px;
+}
+.quote-sec{
+  margin-top: 40px;
+  text-align: center;
+}
+.quote{
+  color: #ff6600;
+  font-size: 29.3333px;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  font-weight: bold;
+}
+.president{
+  color: #252932;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  font-size: 18.6667px;
+  padding-top: 50px;
+}
+.page {
+  background: url("https://inline.company/wp-content/uploads/2024/07/New-official-website_v2_form_background.png") no-repeat right top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.container{
+  margin-top: 120px;
+  margin-bottom: 80px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 740px;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  border-radius: 25px;
+  border: 0.1px solid #ffffff; 
+
+}
+.form-title{
+  color: #064c8c; 
+  font-size: 26.6667px;
+  font-weight: bold;
+  font-family: "Noto Sans Japanese-Medium", sans-serif;
+  margin-bottom: 20px;
+}
+.text{
+  color: #252932;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.up a{
+  color: #F00;
+}
+.down a{
+  color: #000080;
+}
+.form-infor{
+  color: #252932;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  margin-bottom: 70px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #252932;
+}
+.form-group input,select{
+  width: 100%;
+  max-width: 480px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+.form-group option {
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #666666;
+}
+.submit{
+  width: 120px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #ec6337;
+  border-radius: 20px;
+  margin: auto;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hint{
+  font-size: 10.6667px;
+  font-family: 'Noto Sans Japanese-Normal', sans-serif;
+  color: #252932;
+  margin-bottom: 40px;
+}
+.inline-more{
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+.more-button{
+  display: inline-block;
+  margin:30px 5px 160px 0 ;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 20px 30px;
+  color: #fff;
+  background-color: #064c8c;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.contact-wrapper{
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.contact-item {
+  flex-grow: 1;
+  text-align: center;
+}
+.contact-left{
+  border-right: 1px solid #CBD1DC;
+}
+.contact-item :first-child{
+  font-size: 21.3333px;
+  font-family: "Noto Sans Japanese-Medium", sans-serif;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact-item :nth-child(2){
+  color: #252932;
+  font-size: 14.6667px;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  margin-bottom: 20px;
+}
+.phone-number{
+  color: #252932;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.free-button{
+  display: inline-block;
+  margin:20px 5px 5px 0 ;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #ec6337;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.footer-wrapper{
+  width: 100%;
+  background-color: #252932;
+  padding: 60px 160px;
+  color: #e3e6ed;
+}
+.footer-logo{
+  margin-bottom: 40px;
+}
+.footer-info{
+  font-size:14px;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.info-group {
+  margin-bottom: 35px;
+}
+.info-group p{
+  font-weight: bold;
+}
+.info-group span {
+  font-size: 12.3px;
+  line-height: 1.6;
+}
+.contact-us{
+  font-family: "Noto Sans Japanese-Medium", sans-serif;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.contact-group{
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+  line-height: 2;
+}
+.language{
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans Japanese-Medium", sans-serif;
+}
+.lang-list li{
+  border-bottom: 1px solid #2E343B;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Noto Sans Japanese-Normal", sans-serif;
+}
+.social-links{
+  margin-top: 30px;
+  font-size: 13px;
+  font-family: "Noto Sans Japanese-Medium", sans-serif;
+  margin-bottom: 40px;
+}
+.social-links p{
+  margin-bottom: 30px;
+}
+.footer-end{
+  width: 100%;
+  height: 60px;
+  background-color: #191c23;
+}
+.footer-container{
+  max-width: 1200px; 
+  margin-left: 160px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright{
+  color: #9ea6b7;
+}
+.face{
+  color: #9ea6b7;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+}

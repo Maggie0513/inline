@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline 訂候位系統 - 預約、排隊、訂餐、CRM，一台 iPad 搞定</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="inline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="inline.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-img">
+            <a href="https://inline.app/zh/">
+                <img src="images/inline.png" alt="inline">
+            </a>
+        </div>
+        <div>
+            <nav class="header-nav">
+                <ul class="nav-ul">
+                    <li class="dropdown">
+                        <a href="#" class="nav-li">合作夥伴</a>
+                        <ul class="dropdown-content">
+                            <li><a href="https://inline.app/zh/%e5%85%8d%e8%b2%bb%e9%96%8b%e9%80%9a-google-%e8%a8%82%e4%bd%8d">Google 訂位</a></li>
+                            <li><a href="https://inline.app/zh/opentable-tw">OpenTable</a></li>
+                            <li><a href="https://inline.company/zh/mozrest-x-michelin-2">Mozrest x 米其林指南</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-li">主要服務</a>
+                        <ul class="dropdown-content">
+                            <li><a href="https://inline.app/zh/why-inline">inline特色</a></li>
+                            <li><a href="https://inline.app/zh/features">訂位管理</a></li>
+                            <li><a href="https://inline.app/zh/queuing">候位管理</a></li>
+                            <li><a href="https://inline.app/zh/onlineorder">線上外帶/外送服務</a></li>
+                            <li><a href="https://inline.app/zh/flexible_deposit">彈性訂金</a></li>
+                            <li><a href="https://inline.app/zh/crm">顧客管理 CRM</a></li>
+                            <li><a href="https://inline.app/zh/kocmarketing">微網紅行銷方案</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://inline.app/zh/clients" class="nav-li">客戶推薦</a></li>
+                    <li><a href="https://inline.app/zh/news" class="nav-li">品牌合作</a></li>
+                    <li><a href="https://inline.app/zh/contact" class="nav-li">申請試用</a></li>
+                    <li><a href="https://intercom.help/inlinetocustomer/zh-TW" class="nav-li">消費者常見問題</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <a href="https://www.opentable.com.tw/?utm_source=inline&utm_medium=official&utm_campaign=website" target="_blank">
+                <button type="button"  class="header-btn"><img src="https://inline.imgix.net/images/ot-logo-white.png" alt="OpenTable">餐廳隨時訂</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="intro-section">
+                <h2 class="intro-h2">接待，<a href="#">不再手忙腳亂</a></h2>
+                <span>Reception, no longer a hassle</span>
+                <span class="line fi-line"><span class="inline">inline</span> 是一套專供餐廳經營者使用，</span>
+                <span class="line">以雲端作業將訂位流程自動化，</span>
+                <span class="line">提高效率、減低錯誤的雲端管理系統。</span>
+                <button type="button">立即試用</button>
+            </div>
+        </section>
+        <section class="service-img">
+            <p class="service-scope">inline 的服務範圍已拓展到台灣、香港、日本、馬來西亞、新加坡、泰國、美國及世界其他地區，並支援多國語系操作介面。
+            </p>
+        </section>
+        <section class="productivity-section">
+            <h2 class="productivity-tools">強大的生產力工具</h2>
+            <h2 class="productivity-tag">inline 三大管理功能，提高訂位效率</h2>
+            <div class="reserve">
+                <img src="https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_訂位管理_TC-1.png" alt="訂位管理" class="reserve-img">
+                <div class="field">
+                    <h3 class="section-subtitle">訂位管理</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <img src="https://inline.company/wp-content/uploads/2018/05/rsv_01@2x.png" alt="資訊彙整" class="feature-img">
+                            <div>
+                                <strong class="feature-strong">資訊彙整，多重顯示。</strong>
+                                <p class="feature-p">隨時都可快速瀏覽每日訂候位列表、桌位圖以及顧客資訊，訂位從各平台串連，皆多重顯示，一覽無遺。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://inline.company/wp-content/uploads/2018/05/rsv_02@2x.png" alt="自動確認" class="feature-img">
+                            <div>
+                                <strong class="feature-strong">⾃動確認訂位</strong>
+                                <p class="feature-p">顧客用餐前，系統再次自動寄送簡訊進行確認，降低人為疏失，訂位管理更有效率。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://inline.company/wp-content/uploads/2018/05/rsv_03@2x.png" alt="設定開放桌位" class="feature-img">
+                            <div>
+                                <strong class="feature-strong">設定開放桌位時段</strong>
+                                <p class="feature-p">提供全客製化桌位配置圖，指定各時段可訂位人數，不怕超接顧客，還可以設定VIP桌，控位一手掌握。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://inline.company/wp-content/uploads/2018/05/rsv_04@2x.png" alt="預收訂金" class="feature-img">
+                            <div>
+                                <strong class="feature-strong">預收訂⾦管理</strong>
+                                <p class="feature-p">inline 提供預收訂金功能，系統也與金流串接，顧客可直接信用卡線上付款；平板上隨時追蹤顧客繳交訂金狀況，帳務更順暢。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://inline.company/wp-content/uploads/2018/05/rsv_05@2x.png" alt="雲端運算" class="feature-img">
+                            <div>
+                                <strong class="feature-strong">雲端運算管理排程</strong>
+                                <p class="feature-p">我們提供了強大的雲端資料庫系統，可即時更新資料，多平台同步運作，精準又安全，管理訂位更方便。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bgimg">
+                <div class="waiting">
+                    <div class="field">
+                        <h3 class="section-subtitle">候位管理</h3>
+                        <ul class="feature-list">
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/waiting_01@2x.png" alt="登記方式" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">多種顧客排隊登記方式</strong>
+                                    <p class="feature-p">顧客除了可以使用 iPad 觸控、Kiosk 螢幕登記之外，也可支援 QR code 掃描報到及候位電視牆功能，幫助餐廳疏通排隊人潮。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/waiting_02@2x.png" alt="自動安排" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">⾃動安排候位時序</strong>
+                                    <p class="feature-p">候位登記時，系統自動為顧客排號，每組客人都有自己專屬的一組候位序號，排隊報到沒煩惱。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/waiting_03@2x.png" alt="不需下載app" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">顧客不需下載app</strong>
+                                    <p class="feature-p">登記候位完立即傳送簡訊連結，顧客完全不需下載多餘的 app ，隨時查看現場候位排號狀況。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/waiting_04@2x.png" alt="一鍵叩客" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">一鍵叩客</strong>
+                                    <p class="feature-p">輪到該組客人後，餐廳一鍵呼叫顧客回店用餐，省去人工電話確認的時間，為餐廳提供更高的待客效率。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/waiting_05@2x.png" alt="遠端監控" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">支援遠端監控</strong>
+                                    <p class="feature-p">即使餐廳人員不在現場，手機只要連上網路，店家即可遠端監控訂候位狀態，安心度爆表。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_候位管理_TC.png" alt="候位管理" class="waiting-img">
+                </div>
+                <div class="costumer">
+                    <img src="https://inline.company/wp-content/uploads/2023/12/New-official-website_v2_顧客管理_TC.png" alt="顧客管理" class="reserve-img">
+                    <div class="field">
+                        <h3 class="section-subtitle">顧客管理</h3>
+                        <ul class="feature-list">
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/crm_01@2x.png" alt="顧客資料庫" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">顧客資料庫</strong>
+                                    <p class="feature-p">餐廳可隨時調閱顧客跨餐廳、跨分店消費記錄，每筆訂候位都會存入後台，建立餐飲業龐大資料庫。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/crm_02@2x.png" alt="記錄喜好" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">記錄顧客喜好</strong>
+                                    <p class="feature-p">這位客人不吃辣？這位客人喜歡坐室外？inline 全部幫你記錄起來，餐廳可自訂客人喜好，往後對回頭客的新進訂候位就可以貼心應對！</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://inline.company/wp-content/uploads/2018/05/crm_03@2x.png" alt="統計數據" class="feature-img">
+                                <div>
+                                    <strong class="feature-strong">統計數據管理</strong>
+                                    <p class="feature-p">針對不同顧客，inline 提供輔助行銷、數據收集、統計報表等顧客關係管理工具，增加餐廳好感度，有效提高顧客回頭率。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <Section>
+            <h3 class="partner-title">正在使用inline的合作夥伴…</h3>
+            <div class="brand-section">
+                <ul class="brand-tabs">
+                    <li class="tabs-item select">連鎖餐飲集團</li>
+                    <li class="tabs-item">五星級飯店</li>
+                    <li class="tabs-item">百貨賣場</li>
+                    <li class="tabs-item">米其林星級</li>
+                    <li class="tabs-item">特色名店</li>
+                    <li class="tabs-item">海外</li>
+                </ul>
+
+                <div class="brand">
+                    <div class="brand-img select">
+                        <div class="brand-item"><img src="images/王品集團.png" /></div>
+                        <div class="brand-item"><img src="images/貳樓.png" /></div>
+                        <div class="brand-item"><img src="images/這一鍋.png" /></div>
+                        <div class="brand-item"><img src="images/屋馬.png" /></div>
+                        <div class="brand-item"><img src="images/金色三麥.png" /></div>
+                        <div class="brand-item"><img src="images/馬辣.png" /></div>
+                        <div class="brand-item"><img src="images/麥當勞.png" /></div>
+                        <div class="brand-item"><img src="images/摩斯.png" /></div>
+                        <div class="brand-item"><img src="images/必勝客.png" /></div>
+                        <div class="brand-item"><img src="images/瓦城.png" /></div>
+                        <div class="brand-item"><img src="images/橘色.png" /></div>
+                        <div class="brand-item"><img src="images/涮奶葉.png" /></div>
+                        <div class="brand-item"><img src="images/乾杯.png" /></div>
+                        <div class="brand-item"><img src="images/海底撈.png" /></div>
+                        <div class="brand-item"><img src="images/鼎王.png" /></div>
+                        <div class="brand-item"><img src="images/犇.png" /></div>
+                        <div class="brand-item"><img src="images/friday.png" /></div>
+                        <div class="brand-item"><img src="images/吉比.png" /></div>
+                        <div class="brand-item"><img src="images/饗.png" /></div>
+                        <div class="brand-item"><img src="images/藏壽司.png" /></div>
+                        <div class="brand-item"><img src="images/添好運.png" /></div>
+                        <div class="brand-item"><img src="images/厝秘.png" /></div>
+                        <div class="brand-item"><img src="images/易鼎.png" /></div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brand-img">
+                        <div class="brand-item"><img src="images/regent.png" /></div>
+                        <div class="brand-item"><img src="images/福華.png" /></div>
+                        <div class="brand-item"><img src="images/美福.png" /></div>
+                        <div class="brand-item"><img src="images/華泰.png" /></div>
+                        <div class="brand-item"><img src="images/westin.png" /></div>
+                        <div class="brand-item"><img src="images/圓山.png" /></div>
+                        <div class="brand-item"><img src="images/aeris.png" /></div>
+                        <div class="brand-item"><img src="images/s.png" /></div>
+                        <div class="brand-item"><img src="images/誠品.png" /></div>
+                        <div class="brand-item"><img src="images/裕元.png" /></div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brand-img">
+                        <div class="brand-item"><img src="images/遠東.png" /></div>
+                        <div class="brand-item"><img src="images/微風.png" /></div>
+                        <div class="brand-item"><img src="images/新光.png" /></div>
+                        <div class="brand-item"><img src="images/夢時代.png" /></div>
+                        <div class="brand-item"><img src="images/統一.png" /></div>
+                        <div class="brand-item"><img src="images/park.png" /></div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brand-img">
+                        <div class="brand-item"><img src="images/lepa.png" /></div>
+                        <div class="brand-item"><img src="images/late.png" /></div>
+                        <div class="brand-item"><img src="images/tair.png" /></div>
+                        <div class="brand-item"><img src="images/龍吟.png" /></div>
+                        <div class="brand-item"><img src="images/山海樓.png" /></div>
+                        <div class="brand-item"><img src="images/教父.png" /></div>
+                        <div class="brand-item"><img src="images/impro.png" /></div>
+                        <div class="brand-item"><img src="images/謙.png" /></div>
+                        <div class="brand-item"><img src="images/合.png" /></div>
+                        <div class="brand-item"><img src="images/long.png" /></div>
+                        <div class="brand-item"><img src="images/明福.png" /></div>
+                        <div class="brand-item"><img src="images/渥達.png" /></div>
+                        <div class="brand-item"><img src="images/明壽司.png" /></div>
+                        <div class="brand-item"><img src="images/草書.png" /></div>
+                        <div class="brand-item"><img src="images/天香樓.png" /></div>
+                        <div class="brand-item"><img src="images/le.png" /></div>
+                        <div class="brand-item"><img src="images/富錦樹.png" /></div>
+                        <div class="brand-item"><img src="images/mipon.png" /></div>
+                        <div class="brand-item"><img src="images/秋丹.png" /></div>
+                        <div class="brand-item"><img src="images/T+T.png" /></div>
+                        <div class="brand-item"><img src="images/F.png" /></div>
+                        <div class="brand-item"><img src="images/forc.png" /></div>
+                        <div class="brand-item"><img src="images/黑毛和牛.png" /></div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brand-img">
+                        <div class="brand-item"><img src="images/一蘭.png" /></div>
+                        <div class="brand-item"><img src="images/詹記.png" /></div>
+                        <div class="brand-item"><img src="images/lawrys.png" /></div>
+                        <div class="brand-item"><img src="images/F.png" /></div>
+                        <div class="brand-item"><img src="images/flippers.png" /></div>
+                        <div class="brand-item"><img src="images/ladym.png" /></div>
+                        <div class="brand-item"><img src="images/a.png" /></div>
+                        <div class="brand-item"><img src="images/頂鮮.png" /></div>
+                        <div class="brand-item"><img src="images/龍蝦.png" /></div>
+                        <div class="brand-item"><img src="images/貓下去.png" /></div>
+                        <div class="brand-item"><img src="images/冰華.png" /></div>
+                        <div class="brand-item"><img src="images/hawker.png" /></div>
+                        <div class="brand-item"><img src="images/中山招待所.jpg" /></div>
+                        <div class="brand-item"><img src="images/chacha.png" /></div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brand-img">
+                        <div class="brand-item"><img src="images/金滿.png" /></div>
+                        <div class="brand-item"><img src="images/黃真真.png" /></div>
+                        <div class="brand-item"><img src="images/chicago.png" /></div>
+                        <div class="brand-item"><img src="images/酒鍋.png" /></div>
+                        <div class="brand-item"><img src="images/相馬.png" /></div>
+                        <div class="brand-item"><img src="images/paradise.png" /></div>
+                        <div class="brand-item"><img src="images/咖啡.png" /></div>
+                        <div class="brand-item"><img src="images/上屋.png" /></div>
+                        <div class="brand-item"><img src="images/牛繁.png" /></div>
+                        <div class="brand-item"><img src="images/am.png" /></div>
+                        <div class="brand-item"><img src="images/火鍋.png" /></div>
+                        <div class="brand-item"><img src="images/三川.png" /></div>
+                        <div class="brand-item"><img src="images/黑黑紅紅.png" /></div>
+                        <div class="brand-item"><img src="images/rt.png" /></div>
+                        <div class="brand-item"><img src="images/中本.png" /></div>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <Section class="quote-sec">
+            <div class="quote-inner">
+                <p class="quote">
+                “ inline 是目前世界上最好用的<br />
+                訂候位控管、帶位工具及顧客管理系統 ”
+                </p>
+                <p class="president">
+                — 許禮麟 / 金田餐飲集團總經理
+                </p>
+            </div>
+
+            <div class="page">
+                <div class="container">
+                    <p class="form-title">Hi 餐廳老闆</p>
+                    <p class="text up">此表單為提供餐廳試用系統，<a href="#">我們無法提供代訂服務</a></p>
+                    <p class="text down">消費者訂位、訂餐請 > <a href="#">查詢附近餐廳</a></p>
+                    <p class="form-infor">現在申請可享 14 天免費試用＋專人導入教學<br>
+                    快讓 inline app 成為您餐廳的最佳助手！</p>
+
+                    <form class="form">
+                        <div class="form-group">
+                            <label>聯絡人姓名（必填）</label>
+                            <input type="text" placeholder="e.g. Mayer" />
+                        </div>
+                        <div class="form-group">
+                            <label>手機號碼（必填）</label>
+                            <input type="text" placeholder="e.g. 8526377XXXX" />
+                        </div>
+                        <div class="form-group">
+                            <label>電子信箱（必填）</label>
+                            <input type="email" placeholder="e.g. welcome@inline.app" />
+                        </div>
+                        <div class="form-group">
+                            <label>您的餐廳名稱（必填）</label>
+                            <input type="text" placeholder="e.g. Mayer"/>
+                        </div>
+                        <div class="form-group" placeholder="-請選擇國家-">
+                            <label>您餐廳的所在國家（必填）</label>
+                            <select>
+                                <option>澳大利亞</option>
+                                <option>加拿大</option>
+                                <option>香港</option>
+                                <option>印尼</option>
+                                <option>日本</option>
+                                <option>韓國</option>
+                                <option>澳門</option>
+                                <option>馬來西亞</option>
+                                <option>紐西蘭</option>
+                                <option>菲律賓</option>
+                                <option>新加坡</option>
+                                <option>台灣</option>
+                                <option>泰國</option>
+                                <option>美國</option>
+                                <option>越南</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Street (Required)</label>
+                            <input type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>您的職稱（必填）</label>
+                            <input type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>是否有使用過其他訂候位管理系統？（必填）</label>
+                            <input type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>您對 inline 的哪個功能有興趣？（必填）</label>
+                            <select>
+                                <option>--請選擇--</option>
+                                <option>訂候位管理</option>
+                                <option>外帶外送服務</option>
+                                <option>兩者皆有興趣</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>您是從哪裡獲得inline的資訊？（必填）</label>
+                            <select>
+                                <option>--請選擇--</option>
+                                <option>Google搜尋</option>
+                                <option>社群媒體 (Facebook / Instagram...等)</option>
+                                <option>網站廣告</option>
+                                <option>朋友介紹</option>
+                                <option>其他餐廳</option>
+                                <option>Opentable</option>
+                                <option>LinkedIn</option>
+                                <option>線下活動</option>
+                                <option>inline專人電洽</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="submit">送出</button>
+                        <p class="hint">此表單為提供餐廳試用系統，請勿在此進行餐廳線上訂位，如需訂位請直接聯繫餐廳</p>
+                    </form>
+                </div>
+                <div class="inline-more-text">
+                    <p class="inline-more">inline 還有什麼強大之處？</p>
+                    <a href="https://inline.app/zh/why-inline" class="more-button">點擊瞭解更多</a>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-item contact-left">
+                        <p>直接電話聯繫我們</p>
+                        <p>電話客服時間：<br>星期一 ～ 星期五 10:00 ～ 19:00</p>
+                        <p class="phone-number">+886 - 2 - 2322 - 3414</p>
+                    </div>
+                    <div class="contact-item">
+                        <p>立即免費試用 inline</p>
+                        <p>免費前兩週試用期，歡迎填寫表單聯絡我們，<br>我們會有專人盡快回覆您！</p>
+                        <a href="https://inline.app/zh/contact" class="free-button">立即免費試用</a>
+                    </div>
+                </div>
+            </div>
+        </Section>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-logo">
+                <img src="images/inline.png" alt="inline logo">
+            </div>
+            <div class="footer-info">
+                <div class="info-group">
+                    <p>台灣｜統編 52384127</p>
+                    <span>100009</span>
+                    <span>台北市中正區北平東路30-1號5樓</span>
+                </div>
+                <div class="info-group">
+                    <p>香港｜統編 2303318</p>
+                    <span>香港上環皇后大道中181號<br>
+                    新紀元廣場低座24樓2406B室</span>
+                </div>
+                <div class="info-group">
+                    <p>新加坡｜統編 201900515R</p>
+                    <span>160 Robinson Road, #14-04<br>
+                    Singapore Business<br>
+                    Federation Centre, Singapore<br>
+                    068914</span>
+                </div>
+                <div class="info-group">
+                    <p>澳洲｜統編 648 810 600</p>
+                    <span>Level 1/580 Church St, Richmond<br>
+                    VIC 3121</span>
+                </div>
+                <div class="info-group">
+                    <p>日本</p>
+                    <span>〒105-6009</span>
+                    <span>東京都港区虎ノ門4丁目3番1号<br>
+                    城山トラストタワー9階<br>
+                    東京赤坂法律事務所内</span>
+                </div>
+            </div>
+
+            <div class="footer-contact">
+                <p class="contact-us">Contact us</p>
+                <div class="contact-group">
+                    <p>聯絡電話：+886 (02) 2322-3414</p>
+                    <p>服務時間：週一至週五 10:00–19:00</p>
+                </div>
+                <div class="contact-group">
+                    <p>潛在合作或既有店家支援</p>
+                    <a href="mailto:support@inline.app">support@inline.app</a>
+                </div>
+                <div class="contact-group">
+                    <p>消費者訂候位／外帶外送相關問題</p>
+                    <a href="mailto:patron-help@inline.app">patron-help@inline.app</a>
+                </div>
+                <div class="contact-group">
+                    <p>異業合作洽談或餐飲新聞稿聯繫 
+                    <a href="mailto:marketing@inline.tw">marketing@inline.tw</a></p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <span class="language">語言</span>
+                    <ul class="lang-list">
+                        <li><a href="https://inline.app">English (US)</a></li>
+                        <li><a href="https://inline.app/zh/">繁體中文</a></li>
+                        <li><a href="https://inline.app/jp/">日本語</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <p>Instagram</p>
+                    <a href="#">Facebook Page</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="footer-container">
+                <div class="copyright">© 2025 inline 版權所有。 服務條款 ｜ 隱私權政策</div>
+                <div>
+                    <a href="https://www.facebook.com/inlineapps/" target="_blank" title="Facebook" class="social">
+                        <i class="fa-brands fa-facebook-f face"></i>
+                    </a>
+                    <a href="https://www.instagram.com/inline.tw/" 
+                    target = "_blank" title="instagram" class="social">
+                        <i class="fa-brands fa-instagram face"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCi7jKrdiXckUqBdCLjMweLQ" target="_blank" title="Facebook" class="social">
+                        <i class="fa-brands fa-youtube face"></i>
+                    </a>
+                    <a href="https://medium.com/inline.tw" target="_blank" title="Facebook" class="social">
+                        <i class="fa-solid fa-m face"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
